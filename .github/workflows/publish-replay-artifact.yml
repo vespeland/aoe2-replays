@@ -1,0 +1,23 @@
+name: Publish replay artifact
+
+on:
+  push:
+    paths:
+      - latest.aoe2record
+      - latest.json
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Upload latest AoE2 replay
+        uses: actions/upload-artifact@v4
+        with:
+          name: latest-aoe2-replay
+          path: latest.aoe2record
+          if-no-files-found: error
+          retention-days: 30
