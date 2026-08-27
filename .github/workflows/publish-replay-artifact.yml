@@ -26,7 +26,7 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-      - name: Publish run pointer
+      - name: Publish run pointer and replay history
         env:
           GH_TOKEN: ${{ github.token }}
           RUN_ID: ${{ github.run_id }}
@@ -34,24 +34,48 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+
           REPLAY_SHA=$(jq -r '.sha256' latest.json)
+          SOURCE_FILENAME=$(jq -r '.source_filename // ""' latest.json)
+          REPLAY_LAST_WRITE_UTC=$(jq -r '.replay_last_write_utc // ""' latest.json)
+          REPLAY_PUBLISHED_UTC=$(jq -r '.published_utc // ""' latest.json)
+
           ARTIFACT_ID=$(gh api "repos/$REPO/actions/runs/$RUN_ID/artifacts" --jq '.artifacts[] | select(.name == "latest-aoe2-replay") | .id' | head -n 1)
           if [ -z "$ARTIFACT_ID" ]; then
             echo "Could not find latest-aoe2-replay artifact" >&2
             exit 1
           fi
+
+          ACTION_PUBLISHED_UTC=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+
           jq -n \
             --argjson run_id "$RUN_ID" \
             --argjson artifact_id "$ARTIFACT_ID" \
             --arg sha256 "$REPLAY_SHA" \
-            --arg published_utc "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --arg published_utc "$ACTION_PUBLISHED_UTC" \
             '{run_id:$run_id, artifact_id:$artifact_id, sha256:$sha256, artifact_name:"latest-aoe2-replay", published_utc:$published_utc}' \
             > latest-run.json
+
+          mkdir -p replay-history
+          HISTORY_FILE="replay-history/${REPLAY_SHA}.json"
+
+          jq -n \
+            --argjson run_id "$RUN_ID" \
+            --argjson artifact_id "$ARTIFACT_ID" \
+            --arg sha256 "$REPLAY_SHA" \
+            --arg artifact_name "latest-aoe2-replay" \
+            --arg source_filename "$SOURCE_FILENAME" \
+            --arg replay_last_write_utc "$REPLAY_LAST_WRITE_UTC" \
+            --arg replay_published_utc "$REPLAY_PUBLISHED_UTC" \
+            --arg action_published_utc "$ACTION_PUBLISHED_UTC" \
+            '{run_id:$run_id, artifact_id:$artifact_id, sha256:$sha256, artifact_name:$artifact_name, source_filename:$source_filename, replay_last_write_utc:$replay_last_write_utc, replay_published_utc:$replay_published_utc, action_published_utc:$action_published_utc}' \
+            > "$HISTORY_FILE"
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- latest-run.json
+          git add -- latest-run.json "$HISTORY_FILE"
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m "Update latest replay run pointer"
+          git commit -m "Record replay artifact $REPLAY_SHA"
           git push
