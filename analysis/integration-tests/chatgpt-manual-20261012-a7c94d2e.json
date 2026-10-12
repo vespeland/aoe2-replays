@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "test_id": "20261012-a7c94d2e",
+  "execution_mode": "manual_chatgpt",
+  "executed_at_utc": "2026-10-12T12:37:05.918Z",
+  "observed_repository_reads": {
+    "site_readme": {
+      "repository": "hkrogstad/aoe2-tg-site",
+      "path": "README.md",
+      "result": "HTTP 404 Not Found"
+    },
+    "site_repository_metadata": {
+      "result": "HTTP 404 Not Found",
+      "permissions_determined": false
+    },
+    "replay_repository": {
+      "repository": "vespeland/aoe2-replays",
+      "result": "readable",
+      "reported_permissions": {
+        "pull": true,
+        "push": true,
+        "admin": true,
+        "maintain": true,
+        "triage": true
+      }
+    },
+    "scheduled_write_probe": {
+      "path": "analysis/_scheduled-write-test.json",
+      "result": "readable",
+      "content": "{\"source\":\"ChatGPT scheduled task\",\"purpose\":\"verify unattended GitHub write\",\"status\":\"ok\"}"
+    },
+    "latest_json": {
+      "path": "latest.json",
+      "result": "readable"
+    }
+  },
+  "latest_replay": {
+    "reference": {
+      "branch": "main",
+      "source_commit": "202348ce7203dc23eff0d6bff21fbbcc6c736bd8",
+      "blob_sha": "ac9a26f191eaa801ebd3c475dbddd52e4545c5c0",
+      "path": "latest.json"
+    },
+    "metadata": {
+      "sha256": "424abcc49ba15f98e8815a7c42971965e65c530b2ad7bf65119d0669fb85ebaf",
+      "source_filename": "MP Replay v101.103.54800.0 @2026.09.30 224709 (8).aoe2record",
+      "replay_last_write_utc": "2026-09-30T21:17:32.1376142Z",
+      "published_utc": "2026-09-30T21:24:39.8271936Z",
+      "replay_file": "latest.aoe2record"
+    }
+  },
+  "handoff_assessment": "Manual GitHub transport probe; a 404 for the site README prevents confirming access, and the replay metadata contains no site match ID. This probe does not perform analysis, site ingestion, or unattended schedule verification."
+}
