@@ -1,0 +1,647 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-12T13:22:46.358302+00:00",
+  "source_page": "https://aoe2-tg-site.onrender.com/games.html",
+  "listing_sha256": "8baa660897026c594233ab36c265d810bc6045a288467143683afd21074a3811",
+  "scope": "Recorded games from the current team games listing; verify report manifest and actual group identities before analysis",
+  "count": 91,
+  "jobs": [
+    {
+      "match_id": 465569413,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_465569413.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/465569413.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 490976275,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_490976275.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/490976275.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 491144942,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_491144942.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/491144942.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 491152593,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_491152593.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/491152593.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 491164266,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_491164266.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/491164266.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 497191848,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_497191848.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/497191848.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 497199504,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_497199504.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/497199504.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 499686191,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_499686191.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/499686191.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 499693951,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_499693951.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/499693951.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 499700860,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_499700860.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/499700860.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 500177804,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_500177804.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/500177804.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 500619501,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_500619501.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/500619501.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 500633868,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_500633868.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/500633868.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 500842022,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_500842022.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/500842022.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 500848635,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_500848635.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/500848635.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 500855828,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_500855828.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/500855828.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 501618466,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_501618466.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/501618466.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 501819717,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_501819717.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/501819717.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 501828531,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_501828531.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/501828531.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 501835811,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_501835811.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/501835811.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 501837140,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_501837140.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/501837140.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 502248066,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_502248066.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/502248066.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 502251533,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_502251533.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/502251533.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 502957701,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_502957701.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/502957701.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 502972263,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_502972263.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/502972263.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 502973882,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_502973882.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/502973882.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 503205145,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_503205145.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/503205145.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 503220088,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_503220088.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/503220088.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 503888081,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_503888081.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/503888081.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 503895131,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_503895131.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/503895131.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504084920,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504084920.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504084920.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504091345,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504091345.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504091345.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504311831,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504311831.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504311831.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504318621,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504318621.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504318621.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504498856,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504498856.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504498856.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504503004,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504503004.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504503004.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504512101,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504512101.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504512101.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504518050,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504518050.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504518050.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504553331,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504553331.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504553331.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504561312,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504561312.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504561312.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504576055,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504576055.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504576055.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504582932,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504582932.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504582932.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504589746,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504589746.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504589746.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504815504,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504815504.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504815504.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504820442,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504820442.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504820442.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504828439,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504828439.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504828439.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504833955,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504833955.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504833955.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504841923,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504841923.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504841923.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 504850105,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_504850105.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/504850105.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 505291499,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_505291499.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/505291499.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 505296817,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_505296817.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/505296817.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 505497738,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_505497738.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/505497738.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 505502819,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_505502819.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/505502819.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 505508024,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_505508024.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/505508024.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 505515134,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_505515134.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/505515134.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 505521453,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_505521453.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/505521453.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 505526649,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_505526649.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/505526649.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 506197334,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_506197334.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/506197334.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 506205278,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_506205278.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/506205278.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 506209551,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_506209551.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/506209551.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 506220853,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_506220853.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/506220853.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 506228033,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_506228033.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/506228033.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 507109303,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_507109303.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/507109303.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 507115952,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_507115952.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/507115952.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 507122804,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_507122804.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/507122804.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 507132317,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_507132317.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/507132317.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 507134292,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_507134292.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/507134292.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 507141424,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_507141424.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/507141424.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 507147288,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_507147288.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/507147288.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 508269820,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_508269820.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/508269820.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 508275055,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_508275055.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/508275055.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 508277417,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_508277417.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/508277417.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 508285340,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_508285340.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/508285340.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 508288242,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_508288242.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/508288242.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 508297369,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_508297369.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/508297369.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 508702029,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_508702029.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/508702029.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 508712978,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_508712978.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/508712978.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 508720127,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_508720127.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/508720127.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 509447574,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_509447574.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/509447574.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 509456933,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_509456933.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/509456933.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 510362756,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_510362756.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/510362756.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 510372000,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_510372000.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/510372000.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 510378992,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_510378992.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/510378992.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 510383037,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_510383037.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/510383037.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 510384423,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_510384423.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/510384423.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 510392404,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_510392404.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/510392404.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 512016220,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_512016220.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/512016220.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 512025897,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_512025897.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/512025897.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 512036796,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_512036796.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/512036796.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 512042938,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_512042938.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/512042938.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    },
+    {
+      "match_id": 512054688,
+      "replay_url": "https://aoe2-tg-site.onrender.com/replays/M_512054688.aoe2record",
+      "match_url": "https://aoe2-tg-site.onrender.com/partidas/512054688.html",
+      "identity_basis": "Match ID from site recording filename; verify replay hash and identities before analysis",
+      "status": "needs_report_check"
+    }
+  ]
+}
