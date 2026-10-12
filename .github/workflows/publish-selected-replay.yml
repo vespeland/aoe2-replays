@@ -1,0 +1,102 @@
+name: Publish selected replay artifact
+on:
+  push:
+    paths:
+      - .github/workflows/publish-selected-replay.yml
+      - replays/**/M_*.aoe2record
+      - replays/**/metadata.json
+  workflow_dispatch:
+    inputs:
+      match_id:
+        description: Match ID to publish or refresh (blank selects unpublished recordings)
+        required: false
+        type: string
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    outputs:
+      matches: ${{ steps.matches.outputs.matches }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: matches
+        env:
+          REQUESTED_MATCH: ${{ inputs.match_id }}
+        run: |
+          python - <<'PYTHON'
+          import json,os,pathlib
+          requested=os.environ.get('REQUESTED_MATCH','')
+          if requested and not requested.isdigit():
+              raise ValueError('Match ID must be numeric')
+          matches=[]
+          for path in sorted(pathlib.Path('replays').glob('*/metadata.json')):
+              if not path.parent.name.isdigit():
+                  continue
+              if requested and path.parent.name != requested:
+                  continue
+              meta=json.loads(path.read_text())
+              pointer=path.with_name('artifact.json')
+              old=json.loads(pointer.read_text()) if pointer.exists() else {}
+              if requested or old.get('replay_sha256') != meta.get('replay_sha256'):
+                  matches.append(path.parent.name)
+          if requested and not matches:
+              raise ValueError('Requested recording metadata not found')
+          if len(matches)>256:
+              raise ValueError('Publish at most 256 recordings per run')
+          with open(os.environ['GITHUB_OUTPUT'],'a') as output:
+              output.write('matches='+json.dumps(matches)+'\n')
+          PYTHON
+  publish:
+    needs: discover
+    if: needs.discover.outputs.matches != '[]'
+    strategy:
+      max-parallel: 1
+      matrix:
+        match_id: ${{ fromJSON(needs.discover.outputs.matches) }}
+    concurrency:
+      group: selected-replay-publication
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    env:
+      MATCH_ID: ${{ matrix.match_id }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify recording identity
+        run: |
+          python - <<'PY'
+          import hashlib,json,pathlib,os
+          folder=pathlib.Path('replays')/os.environ['MATCH_ID']
+          meta=json.loads((folder/'metadata.json').read_text())
+          data=(folder/meta['filename']).read_bytes()
+          assert meta['match_id']==int(os.environ['MATCH_ID'])
+          assert meta['filename']=='M_'+os.environ['MATCH_ID']+'.aoe2record'
+          assert len(data)==meta['replay_byte_length']
+          assert hashlib.sha256(data).hexdigest()==meta['replay_sha256']
+          PY
+      - uses: actions/upload-artifact@v4
+        id: replay
+        with:
+          name: replay-${{ matrix.match_id }}
+          path: replays/${{ matrix.match_id }}/M_${{ matrix.match_id }}.aoe2record
+          if-no-files-found: error
+          retention-days: 30
+      - name: Record artifact pointer
+        env:
+          ARTIFACT_ID: ${{ steps.replay.outputs.artifact-id }}
+          RUN_ID: ${{ github.run_id }}
+          SOURCE_COMMIT: ${{ github.sha }}
+        run: |
+          python - <<'PY'
+          import datetime,json,os,pathlib
+          folder=pathlib.Path('replays')/os.environ['MATCH_ID']
+          meta=json.loads((folder/'metadata.json').read_text())
+          meta.update(run_id=int(os.environ['RUN_ID']),artifact_id=int(os.environ['ARTIFACT_ID']),artifact_name='replay-'+os.environ['MATCH_ID'],source_commit=os.environ['SOURCE_COMMIT'],retention_days=30,published_utc=datetime.datetime.now(datetime.timezone.utc).isoformat())
+          (folder/'artifact.json').write_text(json.dumps(meta,indent=2)+'\n')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "replays/$MATCH_ID/artifact.json"
+          git commit -m "Record game $MATCH_ID artifact pointer"
+          git pull --rebase origin main
+          git push origin HEAD:main
