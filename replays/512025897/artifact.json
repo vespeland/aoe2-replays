@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "match_id": 512025897,
+  "filename": "M_512025897.aoe2record",
+  "replay_sha256": "30c7add9dc2f27a016d16513ede9f3a914aab88295dba326ddc6831d66c5c057",
+  "replay_byte_length": 6696949,
+  "source_url": "https://aoe2-tg-site.onrender.com/replays/M_512025897.aoe2record",
+  "run_id": 38295791023,
+  "artifact_id": 11768357075,
+  "artifact_name": "replay-512025897",
+  "source_commit": "edca1fe37e8e9df4a77f5134082bb4c29a4cf1ce",
+  "retention_days": 30,
+  "published_utc": "2026-10-12T19:10:02.934376+00:00"
+}
