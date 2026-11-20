@@ -40,9 +40,19 @@ jobs:
           REPLAY_LAST_WRITE_UTC=$(jq -r '.replay_last_write_utc // ""' latest.json)
           REPLAY_PUBLISHED_UTC=$(jq -r '.published_utc // ""' latest.json)
 
-          ARTIFACT_ID=$(gh api "repos/$REPO/actions/runs/$RUN_ID/artifacts" --jq '.artifacts[] | select(.name == "latest-aoe2-replay") | .id' | head -n 1)
+          # GitHub may take a few seconds to expose a newly uploaded artifact via its API.
+          ARTIFACT_ID=""
+          for attempt in {1..12}; do
+            ARTIFACT_ID=$(gh api "repos/$REPO/actions/runs/$RUN_ID/artifacts" --jq '.artifacts[] | select(.name == "latest-aoe2-replay") | .id' | head -n 1)
+            if [ -n "$ARTIFACT_ID" ]; then
+              echo "Found replay artifact $ARTIFACT_ID on attempt $attempt"
+              break
+            fi
+            echo "Replay artifact not yet visible (attempt $attempt/12); waiting 5 seconds..."
+            sleep 5
+          done
           if [ -z "$ARTIFACT_ID" ]; then
-            echo "Could not find latest-aoe2-replay artifact" >&2
+            echo "Could not find latest-aoe2-replay artifact after 12 attempts" >&2
             exit 1
           fi
 
